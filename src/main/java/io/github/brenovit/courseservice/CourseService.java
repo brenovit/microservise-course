@@ -28,7 +28,7 @@ public class CourseService {
 		Course findById = findById(id);
 		findById.setDescription(entity.getDescription());
 		findById.setTitle(entity.getTitle());		
-		return repository.save(entity);
+		return repository.save(findById);
 	}
 	
 	public void delete(Long id) {
