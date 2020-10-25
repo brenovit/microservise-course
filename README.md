@@ -6,6 +6,7 @@ Microservice for course CRUD
 
 * Java 11
 * Docker
+* UserMicroservice running - [Link](https://github.com/brenovit/microservise-user)
 
 ### Technologies
 

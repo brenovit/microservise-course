@@ -1,4 +1,4 @@
-package io.github.brenovit.courseservice;
+package io.github.brenovit.courseservice.course;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,5 +15,7 @@ public class Course {
 	private Long id;
 	private String title;
 	private String description;
-
+	private Long userCode;
+	private String createdByName;
+	
 }

@@ -1,4 +1,4 @@
-package io.github.brenovit.courseservice;
+package io.github.brenovit.courseservice.course;
 
 import java.util.List;
 
